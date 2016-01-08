@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <language>
-        <display>Chinese（Simplified）</display>
+        <display>Chinese(Simplified)</display>
 
 	<resources>
 		<!-- Font overrides - only change these if your language requires special characters -->
@@ -49,17 +49,17 @@
 		<string name="tab_vibration">振动</string>
 		<string name="tab_language">语言</string>
 
-		<string name="install_btn">安装刷机包</string>
-		<string name="wipe_btn">清除数据</string>
-		<string name="backup_btn">备份分区</string>
-		<string name="restore_btn">还原分区</string>
-		<string name="mount_btn">挂载分区</string>
-		<string name="settings_btn">功能设置</string>
-		<string name="advanced_btn">高级选项</string>
-		<string name="reboot_btn">重启选项</string>
+		<string name="install_btn">安装</string>
+		<string name="wipe_btn">清除</string>
+		<string name="backup_btn">备份</string>
+		<string name="restore_btn">恢复</string>
+		<string name="mount_btn">挂载</string>
+		<string name="settings_btn">设置</string>
+		<string name="advanced_btn">高级</string>
+		<string name="reboot_btn">重启</string>
 		<string name="files_btn">文件</string>
 		<string name="copy_log_btn">复制日志</string>
-		<string name="select_type_hdr">选择格式</string>
+		<string name="select_type_hdr">选择类型</string>
 		<string name="install_zip_hdr">安装ZIP包</string>
 		<string name="install_zip_btn">安装ZIP包</string>
 		<string name="install_image_hdr">刷入Image</string>
@@ -67,7 +67,7 @@
 		<string name="install_select_file_hdr">选择文件</string>
 		<string name="file_selector_folders_hdr">目录</string>
 		<string name="select_file_from_storage">从%tw_storage_display_name%里(%tw_storage_free_size% MB)选择文件</string>
-		<string name="adb_sideload_btn">ADB线刷</string>
+		<string name="adb_sideload_btn">ADB Sideload</string>
 		<string name="install_hdr">安装</string>
 		<string name="select_storage_hdr">选择存储器</string>
 		<string name="select_storage_btn">选择存储器</string>
@@ -189,7 +189,7 @@
 		<string name="swipe_change_fs">滑动确认更改</string>
 		<string name="swipe_change_s">   更改</string>
 		<string name="back_btn">返回</string>
-		<string name="wipe_enc_btn">清除加密</string>
+		<string name="wipe_enc_btn">清除加密信息</string>
 		<string name="swipe_factory_reset">滑动确认恢复出厂</string>
 		<string name="repair_change_btn">修复或者更改文件系统</string>
 		<string name="storage_hdr">存储器: %tw_storage_display_name% (%tw_storage_free_size% MB)</string>
@@ -219,31 +219,31 @@
 		<string name="backup_name_hdr">设置备份名称</string>
 		<string name="progress">进度:</string>
 		<string name="backup_complete">备份完毕</string>
-		<string name="backup_cancel">备份取消</string>
-		<string name="restore_hdr">还原</string>
+		<string name="backup_cancel">备份已取消</string>
+		<string name="restore_hdr">恢复</string>
 		<string name="sel_backup_hdr">选择备份</string>
 		<string name="restore_sel_store_hdr">选择备份存储器:%tw_storage_display_name% (%tw_storage_free_size% MB)</string>
-		<string name="restore_sel_pack_fs">选择还原包:</string>
-		<string name="restore_enc_backup_hdr">加密备份</string>
+		<string name="restore_sel_pack_fs">选择欲恢复的包:</string>
+		<string name="restore_enc_backup_hdr">加密的备份</string>
 		<string name="restore_dec_fail">密码错误, 请重试!</string>
 		<string name="del_backup_btn">删除备份</string>
 		<string name="del_backup_confirm">确定删除备份?</string>
-		<string name="del_backup_confirm2">此操作无法恢复!</string>
+		<string name="del_backup_confirm2">此操作无法撤销!</string>
 		<string name="deleting_backup">正在删除备份...</string>
 		<string name="backup_deleted">备份删除完毕</string>
 		<string name="swipe_delete">滑动确认删除</string>
 		<string name="swipe_delete_s">   删除</string>
-		<string name="restore_try_decrypt">加密备份 - 尝试解密</string>
-		<string name="restore_try_decrypt_s">尝试解密</string>
+		<string name="restore_try_decrypt">加密的备份 - 尝试解密</string>
+		<string name="restore_try_decrypt_s">正在尝试解密</string>
 		<string name="restore_backup_date">恢复包日期:%tw_restore_file_date%</string>
-		<string name="restore_sel_part">选择还原分区:</string>
-		<string name="restore_enable_md5_chk">打开备份文件的MD5验证</string>
-		<string name="restore_completed">还原成功</string>
-		<string name="swipe_restore">滑动确认还原</string>
-		<string name="swipe_restore_s">   还原</string>
+		<string name="restore_sel_part">选择恢复分区:</string>
+		<string name="restore_enable_md5_chk">启用备份文件的MD5校验</string>
+		<string name="restore_completed">恢复成功</string>
+		<string name="swipe_restore">滑动确认恢复</string>
+		<string name="swipe_restore_s">   恢复</string>
 		<string name="rename_backup_hdr">重命名备份</string>
 		<string name="rename_backup_confirm">确定重命名备份?</string>
-		<string name="rename_backup_confirm2">此操作无法恢复!</string>
+		<string name="rename_backup_confirm2">此操作无法撤销!</string>
 		<string name="renaming_backup">正在重命名备份...</string>
 		<string name="rename_backup_complete">备份重命名完成</string>
 		<string name="swipe_to_rename">滑动确认重命名</string>
@@ -284,13 +284,13 @@
 		<string name="sys_rol3">安装ZIP包或执行adb命令有可能会修改system分区.</string>
 		<string name="sys_ro_never_show_chk">下次启动将不再显示此屏幕</string>
 		<string name="sys_ro_keep_ro_btn">保持只读</string>
-		<string name="swipe_allow_mod">滑动允许修改</string>
+		<string name="swipe_allow_mod">滑动确认允许修改</string>
 		<string name="swipe_allow_mod_s">允许修改</string>
 		<string name="settings_hdr">设置</string>
 		<string name="settings_gen_hdr">常规设置</string>
 		<string name="settings_gen_s_hdr">常规</string>
 		<string name="settings_gen_btn">常规</string>
-		<string name="use_rmrf_chk">使用rm -rf格式化</string>
+		<string name="use_rmrf_chk">使用rm -rf命令完成格式化</string>
 		<string name="use24clock_chk">使用24小时制</string>
 		<string name="rev_navbar_chk">反转底部按钮布局</string>
 		<string name="simact_chk">主题测试模拟操作</string>
@@ -338,7 +338,7 @@
 		<string name="tz_offset_15">15分</string>
 		<string name="tz_offset_30">30分</string>
 		<string name="tz_offset_45">45分</string>
-		<string name="use_dst_chk">是否使用夏令时(DST)</string>
+		<string name="use_dst_chk">使用夏令时(DST)</string>
 		<string name="curr_tz">当前时区: %tw_time_zone%</string>
 		<string name="curr_tz_s">当前时区:</string>
 		<string name="set_tz_btn">设置时区</string>
@@ -379,7 +379,7 @@
 		<string name="swipe_to_confirm">滑动按钮以确认</string>
 		<string name="part_sd_hdr">分区SD卡</string>
 		<string name="part_sd_lose">SD卡上所有文件将被清除!</string>
-		<string name="part_sd_undo">此操作无法恢复!</string>
+		<string name="part_sd_undo">此操作无法撤销!</string>
 		<string name="part_sd_ext_sz">EXT大小:</string>
 		<string name="part_sd_swap_sz">Swap大小:</string>
 		<string name="part_sd_m">-</string>
@@ -387,7 +387,7 @@
 		<string name="file_system">文件系统:</string>
 		<string name="swipe_part_sd">滑动确认分区</string>
 		<string name="swipe_part_sd_s">分区</string>
-		<string name="partitioning_sd">分区SD卡...</string>
+		<string name="partitioning_sd">正在分区SD卡...</string>
 		<string name="partitioning_sd2">这将需要几分钟.</string>
 		<string name="part_sd_complete">分区完毕</string>
 		<string name="dumlock_hdr">HTC Dumlock</string>
@@ -442,12 +442,12 @@
 		<string name="term_s_hdr">终端</string>
 		<string name="term_kill_btn">结束命令</string>
 		<string name="term_sel_folder_hdr">浏览目录选择开始目录</string>
-		<string name="adb_sideload_hdr">ADB 线刷模式</string>
+		<string name="adb_sideload_hdr">ADB Sideload</string>
 		<string name="sideload_wipe_dalvik_chk">清除Dalvik Cache</string>
 		<string name="sideload_wipe_cache_chk">清除Cache</string>
 		<string name="swipe_to_sideload">滑动确认开始Sideload</string>
 		<string name="swipe_sideload">   开始</string>
-		<string name="sideload_confirm">线刷模式</string>
+		<string name="sideload_confirm">ADB Sideload</string>
 		<string name="sideload_usage">使用方法: adb sideload xxxx(刷机包文件名).zip</string>
 		<string name="sideload_complete">ADB Sideload完毕</string>
 		<string name="fix_perms_hdr">修复权限</string>
@@ -455,9 +455,9 @@
 		<string name="fix_perms_selinux_chk">修复SELinux contexts</string>
 		<string name="fix_perms_sel_note1">修复SELinux contexts可能导致</string>
 		<string name="fix_perms_sel_note2">你的设备不能正常启动.</string>
-		<string name="swipe_to_fix_perms">滑动按钮修复权限</string>
+		<string name="swipe_to_fix_perms">滑动确认修复权限</string>
 		<string name="swipe_fix_perms">   修复权限</string>
-		<string name="fixing_perms">修复权限中...</string>
+		<string name="fixing_perms">正在修复权限...</string>
 		<string name="fix_perms_complete">修复权限完毕</string>
 		<string name="reboot_hdr">重启</string>
 		<string name="su_hdr">SuperSU检测</string>
@@ -487,8 +487,8 @@
 		<string name="md5_error"> * MD5错误!</string>
 		<string name="md5_compute_error"> * 计算MD5错误.</string>
 		<string name="md5_created"> * MD5已生成.</string>
-		<string name="current_date">(当前日期)</string>
-		<string name="auto_generate">(自动生成)</string>
+		<string name="current_date">(Current Date)</string>
+		<string name="auto_generate">(Auto Generate)</string>
 		<string name="unable_to_locate_partition">不能定位'{1}'分区.</string>
 		<string name="no_partition_selected">没有选择要备份的分区.</string>
 		<string name="total_partitions_backup"> * 备份分区的总数: {1}</string>
@@ -503,16 +503,16 @@
 		<string name="avg_backup_img">镜像平均备份速率: {1}MB/秒</string>
 		<string name="total_backed_size">[总共备份 {1}MB]</string>
 		<string name="backup_completed">[耗时{1}秒备份完成]</string>
-		<string name="restore_started">[还原已经开始]</string>
-		<string name="restore_folder">还原目录: '{1}'</string>
+		<string name="restore_started">[恢复已经开始]</string>
+		<string name="restore_folder">恢复目录: '{1}'</string>
 		<!-- {1} is the partition display name and {2} is the number of seconds -->
 		<string name="restort_part_done">[{1} 完成 ({2} 秒)]</string>
 		<string name="verifying_md5">正在校验MD5</string>
 		<string name="skip_md5">正在跳过MD5检测基于用户设置.</string>
-		<string name="calc_restore">正在计算还原详情...</string>
-		<string name="restore_read_only">不能还原{1} -- 只读挂载.</string>
+		<string name="calc_restore">正在计算恢复详情...</string>
+		<string name="restore_read_only">不能恢复{1} -- 只读挂载.</string>
 		<string name="restore_unable_locate">无法找到'{1}'分区.</string>
-		<string name="no_part_restore">没有选择要还原的分区.</string>
+		<string name="no_part_restore">没有选择要恢复的分区.</string>
 		<string name="restore_part_count">正在恢复{1}分区...</string>
 		<string name="total_restore_size">总恢复大小 {1}MB</string>
 		<string name="updating_system_details">更新系统详细信息</string>
@@ -523,10 +523,10 @@
 		<string name="unable_find_part_path">找不到分区路径 '{1}'</string>
 		<string name="update_part_details">正在更新分区详情...</string>
 		<string name="update_part_details_done">...完成</string>
-		<string name="wiping_dalvik">清除Dalvik Cache目录中...</string>
+		<string name="wiping_dalvik">正在清除Dalvik Cache目录...</string>
 		<string name="cleaned">已清除: {1}...</string>
-		<string name="dalvik_done">-- Dalvik Cache目录清除完毕!</string>
-		<string name="no_andsec">没有发现android secure分区.</string>
+		<string name="dalvik_done">-- Dalvik Cache清除完毕!</string>
+		<string name="no_andsec">无android secure分区.</string>
 		<string name="unable_to_locate">无法找到 {1}.</string>
 		<string name="wiping_datamedia">清除内置储存 -- /data/media...</string>
 		<string name="unable_to_mount">无法挂载 {1}</string>
@@ -536,9 +536,9 @@
 		<string name="no_crypto_support">此版本不支持加密.</string>
 		<string name="decrypt_success">Data成功解密，新增块设备: '{1}'</string>
 		<string name="done">完成.</string>
-		<string name="start_partition_sd">分区SD卡中...</string>
+		<string name="start_partition_sd">正在分区SD卡...</string>
 		<string name="partition_sd_locate">无法找到设备进行分区.</string>
-		<string name="ext_swap_size">EXT + Swap 大小超过SD卡大小.</string>
+		<string name="ext_swap_size">EXT + Swap 大小超过SD卡容量.</string>
 		<string name="remove_part_table">删除分区表...</string>
 		<string name="unable_rm_part">无法删除分区表.</string>
 		<string name="create_part">正在建立 {1} 分区...</string>
@@ -583,14 +583,14 @@
 		<string name="backing">正在备份</string>
 		<string name="backup_size">备份'{1}'文件大小为0.</string>
 		<string name="datamedia_fs_restore">WARNING: 这个 /data 备份文件系统为{1}! 除非把文件系统格式设置为{1}不然可能无法启动.</string>
-		<string name="restoring">正在还原 {1}...</string>
-		<string name="restore">还原中</string>
+		<string name="restoring">正在恢复 {1}...</string>
+		<string name="restore">恢复中</string>
 		<string name="recreate_folder_err">无法重新建立{1}目录.</string>
 		<string name="img_size_err">镜像文件大小大于目标设备</string>
 		<string name="flashing">正在刷入 {1}...</string>
 		<string name="backup_folder">备份文件夹设置为： '{1}'</string>
-		<string name="locate_backup_err">无法打开备份 '{1}'</string>
-		<string name="set_restore_opt">设置还原选项: '{1}':</string>
+		<string name="locate_backup_err">无法找到备份文件 '{1}'</string>
+		<string name="set_restore_opt">设置恢复选项: '{1}':</string>
 		<string name="md5_check_skip">跳过MD5校验已打开</string>
 		<string name="ors_encrypt_restore_err">无法使用ORS脚本恢复加密备份.</string>
 		<string name="mounting">正在挂载</string>
@@ -602,8 +602,8 @@
 		<string name="making_dir1">建立目录</string>
 		<string name="making_dir2">建立目录: '{1}'</string>
 		<string name="running_command">运行命令</string>
-		<string name="sideload">ADB 线刷</string>
-		<string name="start_sideload">开始 ADB sideload功能...</string>
+		<string name="sideload">ADB Sideload</string>
+		<string name="start_sideload">启动 ADB sideload功能...</string>
 		<string name="need_new_adb">你的adb版本必须1.0.32 或者更新才能支持.</string>
 		<string name="no_pwd">未提供密码.</string>
 		<string name="done_ors">脚本文件处理完毕</string>
@@ -638,7 +638,7 @@
 		<string name="rename_stock">为了避免原版系统替换TWRP，重命名/system下原版recovery生成文件.</string>
 		<string name="split_backup">分解备份文件到多个压缩档...</string>
 		<string name="backup_error">建立备份失败.</string>
-		<string name="restore_error">在还原过程中出错.</string>
+		<string name="restore_error">在恢复过程中出错.</string>
 		<string name="split_thread">拆分线程ID{1}到档案{2}</string>
 		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->
 		<string name="file_progress">%llu 共 %llu 文件, %i%%</string>
@@ -657,8 +657,8 @@
 		<string name="zip_wipe_cache">一个或多个刷机包请求清除cache -- 立即清除cache.</string>
 		<string name="and_sec_wipe_err">无法清除android secure</string>
 		<string name="dalvik_wipe_err">清除dalvik失败</string>
-		<string name="auto_gen">(自动生成)</string>
-		<string name="curr_date">(当前日期)</string>
+		<string name="auto_gen">(Auto Generate)</string>
+		<string name="curr_date">(Current Date)</string>
 		<string name="backup_name_len">备份名称太长.</string>
 		<string name="backup_name_invalid">备份名称中 '{1}' 中包含无效字符: '{1}'</string>
 		<string name="backup_name_exists">已经存在同名的备份.</string>
