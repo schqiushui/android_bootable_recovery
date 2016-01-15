@@ -378,6 +378,7 @@
 		<string name="inject_twrp_complete">TWRP注入完成</string>
 		<string name="swipe_to_confirm">滑动按钮以确认</string>
 		<string name="part_sd_hdr">分区SD卡</string>
+		<string name="invalid_partsd_sel">你必须选择一个可移除的存储设备</string>
 		<string name="part_sd_lose">SD卡上所有文件将被清除!</string>
 		<string name="part_sd_undo">此操作无法撤销!</string>
 		<string name="part_sd_ext_sz">EXT大小:</string>
