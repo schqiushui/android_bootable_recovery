@@ -21,8 +21,8 @@
 		<string name="data">Data</string>
 		<string name="sdcard">SDCard</string>
 		<string name="internal">内置存储</string>
-		<string name="microsd">SD 卡</string>
-		<string name="usbotg">外置 U盘</string>
+		<string name="microsd">外置SD卡</string>
+		<string name="usbotg">USB OTG</string>
 		<string name="android_secure">Android Secure</string>
 		<string name="dalvik">Dalvik / ART Cache</string>
 		<!-- This is a rarely used partition on a Micro SD card for a very old app2sd system -->
@@ -33,8 +33,8 @@
 		<!-- GUI XML strings -->
 		<string name="twrp_header">Team Win Recovery Project</string>
 		<string name="twrp_watch_header">TWRP %tw_version%</string>
-		<string name="cpu_temp">温度：%tw_cpu_temp% &#xB0;C</string>
-		<string name="battery_pct">电量：%tw_battery%</string>
+		<string name="cpu_temp">CPU温度: %tw_cpu_temp% &#xB0;C</string>
+		<string name="battery_pct">电量: %tw_battery%</string>
 		<string name="sort_by_name">按名称排序</string>
 		<string name="sort_by_date">按日期排序</string>
 		<string name="sort_by_size">按大小排序</string>
@@ -66,8 +66,8 @@
 		<string name="install_image_btn">刷入 Image</string>
 		<string name="install_select_file_hdr">选择文件</string>
 		<string name="file_selector_folders_hdr">目录</string>
-		<string name="select_file_from_storage">从 %tw_storage_display_name% (%tw_storage_free_size% MB) 里选择文件</string>
-		<string name="adb_sideload_btn">ADB 线刷</string>
+		<string name="select_file_from_storage">从%tw_storage_display_name%里(%tw_storage_free_size% MB)选择文件</string>
+		<string name="adb_sideload_btn">ADB Sideload</string>
 		<string name="install_hdr">安装</string>
 		<string name="select_storage_hdr">选择存储器</string>
 		<string name="select_storage_btn">选择存储器</string>
@@ -76,7 +76,7 @@
 		<string name="zip_queue_count_s">最多 10 个文件，第 %tw_zip_queue_count% 个：</string>
 		<string name="zip_warn1">此操作可能会刷入不兼容的 ROM</string>
 		<string name="zip_warn2">导致您的设备无法使用。</string>
-		<string name="zip_back_cancel">按返回键取消添加这个卡刷包。</string>
+		<string name="zip_back_cancel">按返回键取消添加这个zip卡刷包。</string>
 		<string name="zip_back_clear">按返回键清除 Zip 列表。</string>
 		<string name="folder">目录：</string>
 		<string name="file">文件：</string>
@@ -87,8 +87,8 @@
 		<string name="zip_queue">列表：</string>
 		<string name="options">选项：</string>
 		<string name="swipe_confirm">   确认</string>
-		<string name="zip_add_btn">添加更多卡刷包</string>
-		<string name="zip_clear_btn">清除卡刷包队列</string>
+		<string name="zip_add_btn">添加更多的ZIP卡刷包</string>
+		<string name="zip_clear_btn">清除ZIP卡刷包队列</string>
 		<string name="install_zip_count_hdr">刷入文件 %tw_zip_index%，共 %tw_zip_queue_count% 个</string>
 		<string name="installing_zip_xml">正在安装刷机包：%tw_file%</string>
 		<string name="failed">失败</string>
@@ -288,7 +288,7 @@
 		<string name="swipe_allow_mod">滑动确认允许修改</string>
 		<string name="swipe_allow_mod_s">允许修改</string>
 		<string name="settings_hdr">设置</string>
-		<string name="settings_gen_hdr">常规设置</string>
+		<string name="settings_gen_hdr">常规</string>
 		<string name="settings_gen_s_hdr">常规</string>
 		<string name="settings_gen_btn">常规</string>
 		<string name="use_rmrf_chk">使用 rm -rf 格式化</string>
@@ -343,7 +343,7 @@
 		<string name="curr_tz">当前时区：%tw_time_zone%</string>
 		<string name="curr_tz_s">当前时区：</string>
 		<string name="set_tz_btn">设置时区</string>
-		<string name="settings_screen_hdr">屏幕设置</string>
+		<string name="settings_screen_hdr">屏幕</string>
 		<string name="settings_screen_timeout_hdr">屏幕超时</string>
 		<string name="enable_timeout_chk">启用屏幕超时</string>
 		<string name="screen_to_slider">屏幕超时时间(秒)：</string>
@@ -351,7 +351,7 @@
 		<string name="screen_to_na">屏幕超时设置不可用</string>
 		<string name="screen_bright_slider">亮度：%tw_brightness_pct%%</string>
 		<string name="screen_bright_na">亮度设置不可用</string>
-		<string name="vibration_hdr">振动设置</string>
+		<string name="vibration_hdr">振动</string>
 		<string name="button_vibration_hdr">按钮振动强度</string>
 		<string name="kb_vibration_hdr">键盘振动强度</string>
 		<string name="act_vibration_hdr">操作振动强度</string>
